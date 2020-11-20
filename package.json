@@ -1,12 +1,13 @@
 {
   "name": "@cwd-k2/mojapi",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Moja Moja API",
   "main": "index.js",
-  "bin": "bulid/mojapi",
+  "bin": {
+    "mojapi": "build/mojapi"
+  },
   "scripts": {
-    "build": "go build -o build/mojapi github.com/cwd-k2/mojapi/cmd/mojapi",
-    "install": "npm run build"
+    "preinstall": "go build -o build/mojapi github.com/cwd-k2/mojapi/cmd/mojapi"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@cwd-k2/mojapi"
