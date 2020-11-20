@@ -1,5 +1,5 @@
 {
-  "name": "mojapi",
+  "name": "@cwd-k2/mojapi",
   "version": "1.0.0",
   "description": "Moja Moja API",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "install": "npm run build"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@cwd-k2"
+    "registry": "https://npm.pkg.github.com/@cwd-k2/mojapi"
   },
   "repository": {
     "type": "git",
