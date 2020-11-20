@@ -1,9 +1,9 @@
 {
   "name": "@cwd-k2/mojapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Moja Moja API",
   "main": "index.js",
-  "bin": "./bulid/mojapi",
+  "bin": "bulid/mojapi",
   "scripts": {
     "build": "go build -o build/mojapi github.com/cwd-k2/mojapi/cmd/mojapi",
     "install": "npm run build"
