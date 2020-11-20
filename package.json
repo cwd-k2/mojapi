@@ -2,15 +2,11 @@
   "name": "@cwd-k2/mojapi",
   "version": "1.0.3",
   "description": "Moja Moja API",
-  "main": "index.js",
   "bin": {
     "mojapi": "build/mojapi"
   },
   "scripts": {
     "preinstall": "go build -o build/mojapi github.com/cwd-k2/mojapi/cmd/mojapi"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@cwd-k2/mojapi"
   },
   "repository": {
     "type": "git",
