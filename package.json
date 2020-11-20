@@ -1,0 +1,24 @@
+{
+  "name": "mojapi",
+  "version": "1.0.0",
+  "description": "Moja Moja API",
+  "main": "index.js",
+  "bin": "./bulid/mojapi",
+  "scripts": {
+    "build": "go build -o build/mojapi github.com/cwd-k2/mojapi/cmd/mojapi",
+    "install": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@cwd-k2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwd-k2/mojapi.git"
+  },
+  "author": "cwd-k2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwd-k2/mojapi/issues"
+  },
+  "homepage": "https://github.com/cwd-k2/mojapi#readme"
+}

@@ -9,7 +9,7 @@ import (
 func main() {
 	api := "https://www.mojamoja.cloud/api/v1/environment/latest"
 
-	for {
+	for i := 0; i < 10; i++ {
 		resp1, err := http.Get(api)
 		if err != nil {
 			panic(err)
